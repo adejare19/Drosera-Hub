@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drosera Hub</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#f07a04;">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="dro.jpeg" alt="Drosera" width="55" height="45" class="me-2" style="border: 1px solid white; border-radius: 6px;">
+
+            </a>
+            <!-- <div class="ms-auto d-flex align-items-center">
+                <button id="" class="btn btn-outline-light me-2">Login</button>
+                <div id="userMenu" class="dropdown d-none">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown">
+                       
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li class="dropdown-item">Best Quiz Score: <span id="bestScore">0</span></li>
+                        <li class="dropdown-item">Zkgr Streak: <span id="userStreak">0</span></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#" id="logoutBtn">Logout</a></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+        <h1 class="text-center fw-bold mb-4" style="color: white;">Welcome to the Drosera Community Hub</h1>
+
+        <h2 class="text-center fw-bold mb-4">Keeping Ethereum Immune, Together</h2>
+        <p class="text-center fw-bold mb-5">
+            Join the Drosera community. Track your streaks, learn through quizzes, and spread the mission with memes.
+        </p>
+
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-3">
+                <div class="card h-100 shadow border-0">
+                    <img src="guard.jpeg" class="card-img-top" alt="Security Trappers">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Security Trappers</h5>
+                        <p class="card-text small">
+                            Developers become guardians, converting attacks into opportunities to defend, learn, and
+                            strengthen the ecosystem. With Drosera, every exploit attempt becomes a trigger for
+                            growth—turning vulnerabilities into resilience, and threats into proof of your project’s
+                            security..
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100 shadow border-0">
+                    <img src="gamer.webp" class="card-img-top mt-5" alt="Drosera Immune System">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> Powering Up Web3 Defense</h5>
+                        <p class="card-text small">
+                            Just like the Gameboy gave us control in the palm of our hands, Drosera puts control back
+                            into the hands of Web3 communities. In a space where exploits move fast and threats respawn
+                            endlessly, Drosera equips you with the ultimate controller: real-time traps that detect,
+                            respond, and neutralize attacks before they drain your ecosystem.
+
+                            Every button is conviction, every move is protection. Drosera isn’t just security software;
+                            it’s the next level, the hidden cheat code Web3 never had. No restarts, no game overs — only
+                            endurance, only resilience.
+
+                            Play smarter. Stay protected. Drosera is the only protector you need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-3">
+                <div class="card h-100 shadow border-0">
+                    <img src="protect.jpeg" class="card-img-top" alt="Community Strength">
+                    <div class="card-body">
+                        <h5 class="card-title">The Only Protector You Need</h5>
+                        <p class="card-text small">
+                            In the unpredictable world of Web3, Drosera stands as your shield. With automated defense
+                            traps that detect, stop, and neutralize threats in real time, you’ll never have to worry
+                            about hidden exploits or surprise attacks again. One intelligent system, complete
+                            protection—so you can focus on building, trading, and exploring with confidence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="card h-100 shadow border-0">
+                    <img src="lab.webp" class="card-img-top" alt="Conviction">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Conviction</h5>
+                        <p class="card-text small">
+                            In a world where billions have been lost to hacks, exploits, and manipulation, trust in Web3
+                            security is fragile. Drosera exists to change that. We believe security shouldn’t be an
+                            afterthought or a patch—it should be a living immune system for decentralized networks. With
+                            Drosera, protection isn’t passive; it’s proactive. Every trap is built to detect threats
+                            before they spread, isolate them instantly, and defend your assets with zero hesitation.
+
+                            We’re not just securing smart contracts; we’re securing the future of Web3. Drosera is more
+                            than a shield—it’s conviction, resilience, and innovation in one. The only protector you’ll
+                            ever need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center mt-5">
+
+        <p style="color: white;" class="fw-bold">
+            Keep your streak alive, test your knowledge, or spread Drosera vibes with memes!
+        </p>
+
+        <div class="row mt-4 justify-content-center">
+
+            <!-- Quiz Card -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card shadow border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Take the Quiz</h5>
+                        <p class="card-text">Test your Drosera knowledge and earn rewards.</p>
+                        <a href="https://drosera-quiz-phi.vercel.app/" class="btn btn-primary w-100">
+                            Take the Quiz 🎯
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meme Card -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card shadow border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Meme Generator</h5>
+                        <p class="card-text">Create and share hilarious Drosera memes.</p>
+                        <a href="https://www.kapwing.com/templates/memes" class="btn btn-warning w-100">
+                            Generate Meme 😂
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="text-center mb-5" style="color: aliceblue;">THE TEAM</h2>
+        <div class="carousel-inner">
+
+
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-center shadow-lg p-4" style="width: 18rem; border-radius: 1rem;">
+                        <img src="/fdr.jpg" class="card-img-top rounded-circle mx-auto" alt="Team Member 1"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Fernando Reyes</h5>
+                            <p class="card-text text-muted">FDR</p>
+                            <p class="card-text text-muted">CEO & Founder</p>
+
+                            <div>
+                                <a href="https://x.com/FDRosera" class="text-dark mx-2"><i
+                                        class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-center shadow-lg p-4" style="width: 18rem; border-radius: 1rem;">
+                        <img src="boba.jpg" class="card-img-top rounded-circle mx-auto" alt="Team Member 2"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Samuel Glenn</h5>
+                            <p class="card-text text-muted">Boba</p>
+                            <p class="card-text text-muted">CTO & Co-Founder</p>
+                            <div>
+                                <a href="https://x.com/Bobafetador" class="text-dark mx-2"><i
+                                        class="bi bi-twitter"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-center shadow-lg p-4" style="width: 18rem; border-radius: 1rem;">
+                        <img src="malone.jpg" class="card-img-top rounded-circle mx-auto" alt="Team Member 3"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Richard Malone</h5>
+                            <p class="card-text text-muted">CSO</p>
+                            <div>
+                                <a href="https://x.com/crypto_malone" class="text-dark mx-2"><i
+                                        class="bi bi-twitter"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-center shadow-lg p-4" style="width: 18rem; border-radius: 1rem;">
+                        <img src="kratos.jpg" class="card-img-top rounded-circle mx-auto" alt="Team Member 3"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Kratos</h5>
+                            <p class="card-text text-muted">Founding Engineer</p>
+                            <div>
+                                <a href="https://x.com/0xkr8os" class="text-dark mx-2"><i class="bi bi-twitter"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Meet the Moderators</h2>
+            <div class="row">
+                <!-- Moderator 1 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="nana.jpg" class="card-img-top" alt="Moderator 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">KingNana</h5>
+                            <p class="card-text fw-bold">Lead Moderator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="mayor.jpg" class="card-img-top" alt="Moderator 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mayor</h5>
+                            <p class="card-text fw-bold">Moderator</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Moderator 2 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="dra.jpg" class="card-img-top" alt="Moderator 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dara</h5>
+                            <p class="card-text fw-bold">Moderator/Community Support</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Moderator 3 -->
+
+                <!-- Moderator 4 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="lord.jpg" class="card-img-top" alt="Moderator 4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Lord Kranos</h5>
+                            <p class="card-text fw-bold">Chief Smash Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <div class="container py-5">
+        <h1 class="text-center mb-5" style="color: white;">🌟 Drosera Roles 🌟</h1>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="category-card artist text-center">
+                    <h2>🎨 Artist Path</h2>
+                    <div class="step-card">🖌️ Illustrator – Submit one piece of artwork</div>
+                    <div class="step-card">🧑‍🎨 Artisan – Submit an original piece of art every 2 weeks</div>
+                    <div class="step-card">🕸️ Weaver – Same requirements as Artisan + Receive 10k impressions on a
+                        piece of Drosera art</div>
+                    <div class="step-card">👁️ Visionary – Art widely adopted by Drosera</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category-card writer text-center">
+                    <h2>✍️ Writer Path</h2>
+                    <div class="step-card">📜 Scribe – One piece of writing</div>
+                    <div class="step-card">🪶 Wordsmith – Article + thread + post</div>
+                    <div class="step-card">🎭 Bard – Weekly thread & replies</div>
+                    <div class="step-card">⭐ Poet – Viral piece (100+ bookmarks)</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category-card trapper text-center">
+                    <h2>🪤 Trapper Path</h2>
+                    <div class="step-card">🎯 Cadet – Deploy a trap on Drosera and submit Discord username onchain</div>
+                    <div class="step-card">⚡ Corporal – Connect an operator to a trap and submit proof of green liveness
+                        data</div>
+                    <div class="step-card">🧪 Sergeant – Create a POC for a unique trap idea (technical and serves a use
+                        case)</div>
+                    <div class="step-card">🏅 Captain – Receive one citation of support for a deployed trap</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category-card keeper text-center">
+                    <h2>🛡️ Keeper Path</h2>
+                    <div class="step-card">📢 Advocate – Educate and help community members on X and in Discord</div>
+                    <div class="step-card">🌱 Steward – Maintain level 10 in Discord</div>
+                    <div class="step-card">🤝 Sentinel – Organize a virtual or in-person event and post photos on X
+                    </div>
+                    <div class="step-card">🔥 Guardian of the Janissaries – Shape long-term culture</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        Made with ❤️ by <strong>King_Dexter</strong> for <strong>DroseraNetwork</strong>
+    </footer>
+
+
+
+
+
+    <script>
+        // Animate steps on scroll
+        const cards = document.querySelectorAll('.step-card');
+        const revealOnScroll = () => {
+            const triggerBottom = window.innerHeight * 0.8;
+            cards.forEach(card => {
+                const cardTop = card.getBoundingClientRect().top;
+                if (cardTop < triggerBottom) {
+                    card.classList.add('show');
+                }
+            });
+        };
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Run once on load
+    </script>
+
+
+    <script src="attendance.js" type="module"></script>
+
+</body>
+
+</html>
